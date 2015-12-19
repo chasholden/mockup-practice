@@ -28,15 +28,14 @@ nav li {
   list-style-type: none;
   float: left;
   padding: .3rem 2.6rem .3rem 2.6rem;
-  border-right: 3px solid rebeccapurple;
-  background-color: #8468B3;
+  border-right: 3px solid grey;
+  background-color: #463568;
 }
 nav li:last-child {
   border-right: none;
 }
 nav li a {
   color: white;
-  text-decoration: none;
   font-family: Helvetica, sans-serif;
 }
 /* article styles */
@@ -48,7 +47,7 @@ aside {
   flex: 1;
   float: left;
   width: 25%;
-  background-color: #C0B2D5;
+  background-color: #624a86;
 }
 aside ul {
   padding-top: 5rem;
@@ -60,7 +59,6 @@ aside li {
 }
 aside li a {
   color: white;
-  text-decoration: none;
   font-family: Helvetica, sans-serif;
 }
 figure {
@@ -99,4 +97,12 @@ footer li {
 }
 footer img {
   width: 45%;
+}
+.offscreen {
+  position: absolute;
+  left: -1000000;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
